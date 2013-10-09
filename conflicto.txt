@@ -1,0 +1,25 @@
+-<<<<<<< HEAD
++
+ #!/usr/bin/ruby 
+ puts "Suma de matrices"
+ 
+@@ -42,7 +42,7 @@ def mostrarMatriz(a,b)
+   print "] -> fila #{i+1}"
+   puts  
+ end
+-=======
++
+ ############################################
+ 
+ 
+@@ -138,4 +138,3 @@ def productoMatriz(m,n)
+   mostrarMatriz(c, "Resultado")
+ 
+ ##########      ########     #########  ###########
+->>>>>>> 19c6b44b682b08b7ef440f0df8f7f14094c00796
+
+
+Nos generaba un conflicto ya que teniamos versiones distintas del mismo fichero, ya que tenias dos ramas creadas, ya que estamos modificando el mismo fichero 
+y a la hora de fusionar con la rama master , la rama no sabia que version tenia que coger del fichero, por lo que entraba en conflicto.
+
+Para solucionar el conflicto , se utiliza el comando git pull para actualizar a la ultima version del codigo.
