@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 #!/usr/bin/ruby 
 puts "Suma de matrices"
 
@@ -42,7 +42,7 @@ for i in (0..2)
 	print "] -> fila #{i+1}"
 	puts	
 end
-=======
+
 ############################################
 
 
@@ -138,4 +138,3 @@ end
 	mostrarMatriz(c, "Resultado")
 
 ##########      ########     #########  ###########
->>>>>>> 19c6b44b682b08b7ef440f0df8f7f14094c00796
